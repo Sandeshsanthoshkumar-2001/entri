@@ -22,5 +22,6 @@ int main()
             small[1]=arr[j+1];
     }
     printf("%d is smaller number\n",small[1]);
+    printf(("The smaller element is %d\n",small[1]);
     return 0;
 }
