@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+    int i,j,arr[5],temp[1], small[1];
+    for(i=0;i<5;i++)
+    {
+        printf("Enter the %d elements\n",i);
+        scanf("%d",&arr[i]);
+    }
+    temp[1] = arr[0];
+    for(j=0;j<4;j++)
+    {
+        if(temp[1]<arr[j+1])
+            temp[1]=arr[j+1];
+    }
+    printf("%d is larger number\n",temp[1]);
+    small[1]=arr[0];
+    for(j=0;j<4;j++)
+    {
+        if(small[1]>arr[j+1])
+            small[1]=arr[j+1];
+    }
+    printf("%d is smaller number\n",small[1]);
+    return 0;
+}
