@@ -3,7 +3,7 @@
 int main()/* This is the main function*/
 {
     int i,j,arr[5],temp[1], small[1];
-    for(i=0;i<5;i++)
+    for(i=0;i<5;i++)/*This is the for loop for getting the elements*/
     {
         printf("Enter the %d elements\n",i);
         scanf("%d",&arr[i]);
