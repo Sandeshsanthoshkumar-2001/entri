@@ -1,6 +1,6 @@
 #include<stdio.h>
 /* This a programme of array of larger and smaller*/
-int main()
+int main()/* This is the main function*/
 {
     int i,j,arr[5],temp[1], small[1];
     for(i=0;i<5;i++)
